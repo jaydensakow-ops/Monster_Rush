@@ -70,4 +70,9 @@ public class Game : MonoBehaviour
         isGameRunning = false;
         Ui.ShowStartScreen();
     }
+
+    public void OnStartRoundButtonClicked()
+    {
+        
+    }
 }
