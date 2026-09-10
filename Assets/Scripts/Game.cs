@@ -28,6 +28,8 @@ public class Game : MonoBehaviour
         Ui.HideStartScreen();
         InitializeGame();
         Ui.ShowGUIScreen();
+        Ui.ShowStartRoundButton();
+        Ui.HideGameOverButton();
     }
     
     public void OnPauseButtonClicked()
@@ -55,6 +57,8 @@ public class Game : MonoBehaviour
         Ui.HideGameOverScreen();
         InitializeGame();
         Ui.ShowGUIScreen();
+        Ui.ShowStartRoundButton();
+        Ui.HideGameOverButton();
     }
     
     public void OnGameOverButtonClicked()
@@ -73,6 +77,7 @@ public class Game : MonoBehaviour
 
     public void OnStartRoundButtonClicked()
     {
-        
+        Ui.HideStartRoundButton();
+        Ui.ShowGameOverButton();
     }
 }
