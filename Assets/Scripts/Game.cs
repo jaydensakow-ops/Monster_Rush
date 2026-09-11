@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class Game : MonoBehaviour
 {
+    public Sounds Sounds;
     public UI Ui;
 
     private bool isGameRunning = false;
@@ -26,6 +27,7 @@ public class Game : MonoBehaviour
     public void OnPlayButtonClicked()
     {
         Ui.HideStartScreen();
+        Sounds.PlayStartGameSound();
         InitializeGame();
         Ui.ShowGUIScreen();
         Ui.ShowStartRoundButton();
@@ -35,6 +37,7 @@ public class Game : MonoBehaviour
     public void OnPauseButtonClicked()
     {
         Ui.HideGUIScreen();
+        Sounds.PlayPauseSound();
         Ui.ShowPauseScreen();
         //add suspend functionality
     }
@@ -42,6 +45,7 @@ public class Game : MonoBehaviour
     public void OnResumeButtonClicked()
     {
         Ui.HidePauseScreen();
+        Sounds.PlayUnpauseSound();
         Ui.ShowGUIScreen();
         //add unsuspend functionality
     }
@@ -55,6 +59,7 @@ public class Game : MonoBehaviour
     public void OnPlayAgainButtonClicked()
     {
         Ui.HideGameOverScreen();
+        Sounds.PlayStartGameSound();
         InitializeGame();
         Ui.ShowGUIScreen();
         Ui.ShowStartRoundButton();
@@ -65,6 +70,7 @@ public class Game : MonoBehaviour
     {
         Ui.HideGUIScreen();
         Ui.ShowGameOverScreen();
+        Sounds.PlayGameOverSound();
     }
     
     public void OnStartScreenReturnButtonClicked()
@@ -73,11 +79,20 @@ public class Game : MonoBehaviour
         Ui.HidePauseScreen();
         isGameRunning = false;
         Ui.ShowStartScreen();
+        Sounds.PlayStartScreenReturnSound();
     }
 
     public void OnStartRoundButtonClicked()
     {
         Ui.HideStartRoundButton();
+        Sounds.PlayRoundStartSound();
         Ui.ShowGameOverButton();
+    }
+
+    public void OnBaseTowerButtonClicked()
+    {
+        Sounds.PlayPurchaseSound();
+        
+        //if the player doesn't have enough money deny purchase with sound 
     }
 }
