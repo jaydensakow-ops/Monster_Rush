@@ -9,6 +9,7 @@ public class Sounds : MonoBehaviour
     public AudioClip GameOverSound;
     public AudioClip RoundStartSound;
     public AudioClip PurchaseSound;
+    public AudioClip CursorHoverSound;
     
     private AudioSource audioSource;
     
@@ -50,5 +51,10 @@ public class Sounds : MonoBehaviour
     public void PlayPurchaseSound()
     {
         audioSource.PlayOneShot(PurchaseSound);
+    }
+
+    public void PlayCursorHoverSound()
+    {
+        audioSource.PlayOneShot(CursorHoverSound);
     }
 }

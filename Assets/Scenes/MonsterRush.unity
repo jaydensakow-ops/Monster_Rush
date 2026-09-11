@@ -636,6 +636,7 @@ GameObject:
   - component: {fileID: 144897161}
   - component: {fileID: 144897160}
   - component: {fileID: 144897163}
+  - component: {fileID: 144897164}
   m_Layer: 5
   m_Name: StartRoundButton
   m_TagString: Untagged
@@ -769,6 +770,35 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!114 &144897164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 144897158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventTrigger
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 838164912}
+          m_TargetAssemblyTypeName: Sounds, Assembly-CSharp
+          m_MethodName: PlayCursorHoverSound
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &150691151
 GameObject:
   m_ObjectHideFlags: 0
@@ -993,6 +1023,7 @@ GameObject:
   - component: {fileID: 193724144}
   - component: {fileID: 193724143}
   - component: {fileID: 193724142}
+  - component: {fileID: 193724145}
   m_Layer: 5
   m_Name: PauseButton
   m_TagString: Untagged
@@ -1113,6 +1144,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 193724140}
   m_CullTransparentMesh: 1
+--- !u!114 &193724145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 193724140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventTrigger
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 838164912}
+          m_TargetAssemblyTypeName: Sounds, Assembly-CSharp
+          m_MethodName: PlayCursorHoverSound
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &201223811
 GameObject:
   m_ObjectHideFlags: 0
@@ -1369,6 +1429,7 @@ GameObject:
   - component: {fileID: 213362351}
   - component: {fileID: 213362350}
   - component: {fileID: 213362349}
+  - component: {fileID: 213362352}
   m_Layer: 5
   m_Name: BaseTowerButton4
   m_TagString: Untagged
@@ -1490,6 +1551,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 213362347}
   m_CullTransparentMesh: 1
+--- !u!114 &213362352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 213362347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventTrigger
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 838164912}
+          m_TargetAssemblyTypeName: Sounds, Assembly-CSharp
+          m_MethodName: PlayCursorHoverSound
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &225113259
 GameObject:
   m_ObjectHideFlags: 0
@@ -1639,6 +1729,7 @@ GameObject:
   - component: {fileID: 237386112}
   - component: {fileID: 237386111}
   - component: {fileID: 237386110}
+  - component: {fileID: 237386113}
   m_Layer: 5
   m_Name: BaseTowerButton2
   m_TagString: Untagged
@@ -1760,6 +1851,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 237386108}
   m_CullTransparentMesh: 1
+--- !u!114 &237386113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 237386108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventTrigger
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 838164912}
+          m_TargetAssemblyTypeName: Sounds, Assembly-CSharp
+          m_MethodName: PlayCursorHoverSound
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &317082447
 GameObject:
   m_ObjectHideFlags: 0
@@ -1909,6 +2029,7 @@ GameObject:
   - component: {fileID: 318185715}
   - component: {fileID: 318185714}
   - component: {fileID: 318185713}
+  - component: {fileID: 318185716}
   m_Layer: 5
   m_Name: BaseTowerButton5
   m_TagString: Untagged
@@ -2030,6 +2151,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 318185711}
   m_CullTransparentMesh: 1
+--- !u!114 &318185716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 318185711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventTrigger
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 838164912}
+          m_TargetAssemblyTypeName: Sounds, Assembly-CSharp
+          m_MethodName: PlayCursorHoverSound
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &456148323
 GameObject:
   m_ObjectHideFlags: 0
@@ -2612,6 +2762,7 @@ GameObject:
   - component: {fileID: 655893376}
   - component: {fileID: 655893375}
   - component: {fileID: 655893378}
+  - component: {fileID: 655893379}
   m_Layer: 5
   m_Name: GameOverButton
   m_TagString: Untagged
@@ -2745,6 +2896,35 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!114 &655893379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 655893373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventTrigger
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 838164912}
+          m_TargetAssemblyTypeName: Sounds, Assembly-CSharp
+          m_MethodName: PlayCursorHoverSound
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &666826742
 GameObject:
   m_ObjectHideFlags: 0
@@ -2757,6 +2937,7 @@ GameObject:
   - component: {fileID: 666826746}
   - component: {fileID: 666826745}
   - component: {fileID: 666826744}
+  - component: {fileID: 666826747}
   m_Layer: 0
   m_Name: Button-Resume
   m_TagString: Untagged
@@ -2878,6 +3059,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 666826742}
   m_CullTransparentMesh: 1
+--- !u!114 &666826747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 666826742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventTrigger
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 838164912}
+          m_TargetAssemblyTypeName: Sounds, Assembly-CSharp
+          m_MethodName: PlayCursorHoverSound
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &687103775
 GameObject:
   m_ObjectHideFlags: 0
@@ -3618,6 +3828,7 @@ MonoBehaviour:
   GameOverSound: {fileID: 8300000, guid: 1ed8fb76fc64e4e46847348138782234, type: 3}
   RoundStartSound: {fileID: 8300000, guid: 21c4a490b24ba2045bc815f7626a40ef, type: 3}
   PurchaseSound: {fileID: 8300000, guid: abdbbfd33a46f4549987385f85c536b5, type: 3}
+  CursorHoverSound: {fileID: 8300000, guid: 35cf7766e9e2aa542811e896fde57989, type: 3}
 --- !u!82 &838164913
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4689,6 +4900,7 @@ GameObject:
   - component: {fileID: 1190131423}
   - component: {fileID: 1190131422}
   - component: {fileID: 1190131421}
+  - component: {fileID: 1190131424}
   m_Layer: 5
   m_Name: BaseTowerButton6
   m_TagString: Untagged
@@ -4810,6 +5022,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1190131419}
   m_CullTransparentMesh: 1
+--- !u!114 &1190131424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1190131419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventTrigger
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 838164912}
+          m_TargetAssemblyTypeName: Sounds, Assembly-CSharp
+          m_MethodName: PlayCursorHoverSound
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1320116390
 GameObject:
   m_ObjectHideFlags: 0
@@ -4822,6 +5063,7 @@ GameObject:
   - component: {fileID: 1320116394}
   - component: {fileID: 1320116393}
   - component: {fileID: 1320116392}
+  - component: {fileID: 1320116395}
   m_Layer: 5
   m_Name: BaseTowerButton1
   m_TagString: Untagged
@@ -4943,6 +5185,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1320116390}
   m_CullTransparentMesh: 1
+--- !u!114 &1320116395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1320116390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventTrigger
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 838164912}
+          m_TargetAssemblyTypeName: Sounds, Assembly-CSharp
+          m_MethodName: PlayCursorHoverSound
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1418853560
 GameObject:
   m_ObjectHideFlags: 0
@@ -5031,6 +5302,7 @@ GameObject:
   - component: {fileID: 1429508517}
   - component: {fileID: 1429508516}
   - component: {fileID: 1429508515}
+  - component: {fileID: 1429508518}
   m_Layer: 0
   m_Name: Button-Play
   m_TagString: Untagged
@@ -5152,6 +5424,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1429508513}
   m_CullTransparentMesh: 1
+--- !u!114 &1429508518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1429508513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventTrigger
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 838164912}
+          m_TargetAssemblyTypeName: Sounds, Assembly-CSharp
+          m_MethodName: PlayCursorHoverSound
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1466023555
 GameObject:
   m_ObjectHideFlags: 0
@@ -5925,6 +6226,7 @@ GameObject:
   - component: {fileID: 1694510464}
   - component: {fileID: 1694510463}
   - component: {fileID: 1694510462}
+  - component: {fileID: 1694510465}
   m_Layer: 5
   m_Name: BaseTowerButton3
   m_TagString: Untagged
@@ -6046,6 +6348,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1694510460}
   m_CullTransparentMesh: 1
+--- !u!114 &1694510465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1694510460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventTrigger
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 838164912}
+          m_TargetAssemblyTypeName: Sounds, Assembly-CSharp
+          m_MethodName: PlayCursorHoverSound
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1706948648
 GameObject:
   m_ObjectHideFlags: 0
@@ -6333,6 +6664,7 @@ GameObject:
   - component: {fileID: 1839177186}
   - component: {fileID: 1839177185}
   - component: {fileID: 1839177184}
+  - component: {fileID: 1839177187}
   m_Layer: 0
   m_Name: Button-PlayAgain
   m_TagString: Untagged
@@ -6454,6 +6786,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1839177182}
   m_CullTransparentMesh: 1
+--- !u!114 &1839177187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1839177182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventTrigger
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 838164912}
+          m_TargetAssemblyTypeName: Sounds, Assembly-CSharp
+          m_MethodName: PlayCursorHoverSound
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1844922189
 GameObject:
   m_ObjectHideFlags: 0
@@ -6964,6 +7325,7 @@ GameObject:
   - component: {fileID: 1996141279}
   - component: {fileID: 1996141278}
   - component: {fileID: 1996141277}
+  - component: {fileID: 1996141280}
   m_Layer: 0
   m_Name: Button-StartScreenReturn
   m_TagString: Untagged
@@ -7085,6 +7447,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1996141275}
   m_CullTransparentMesh: 1
+--- !u!114 &1996141280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1996141275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventTrigger
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 838164912}
+          m_TargetAssemblyTypeName: Sounds, Assembly-CSharp
+          m_MethodName: PlayCursorHoverSound
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &2003527454
 GameObject:
   m_ObjectHideFlags: 0
@@ -7371,6 +7762,7 @@ GameObject:
   - component: {fileID: 2096328998}
   - component: {fileID: 2096328997}
   - component: {fileID: 2096328996}
+  - component: {fileID: 2096328999}
   m_Layer: 0
   m_Name: Button-StartScreenReturn
   m_TagString: Untagged
@@ -7492,6 +7884,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2096328994}
   m_CullTransparentMesh: 1
+--- !u!114 &2096328999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2096328994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventTrigger
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 838164912}
+          m_TargetAssemblyTypeName: Sounds, Assembly-CSharp
+          m_MethodName: PlayCursorHoverSound
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &2100207840
 GameObject:
   m_ObjectHideFlags: 0
