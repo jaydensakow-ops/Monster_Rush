@@ -8,6 +8,8 @@ public class UI : MonoBehaviour
     public CanvasGroup PauseScreenCanvasGroup;
     public CanvasGroup StartRoundButtonCanvasGroup;
     public CanvasGroup GameOverButtonCanvasGroup;
+    public CanvasGroup TowerSelectPanelCanvasGroup;
+    public CanvasGroup OpenPanelCanvasGroup;
 
     public void HideStartScreen()
     {
@@ -68,4 +70,25 @@ public class UI : MonoBehaviour
     {
         CanvasGroupDisplayer.Show(GameOverButtonCanvasGroup);
     }
+
+    public void HideTowerSelectPanel()
+    {
+        CanvasGroupDisplayer.Hide(TowerSelectPanelCanvasGroup);
+    }
+
+    public void ShowTowerSelectPanel()
+    {
+        CanvasGroupDisplayer.Show(TowerSelectPanelCanvasGroup);
+    }
+
+    public void HideOpenPanelButton()
+    {
+        CanvasGroupDisplayer.Hide(OpenPanelCanvasGroup);
+    }
+    
+    public void ShowOpenPanelButton()
+    {
+        CanvasGroupDisplayer.Show(OpenPanelCanvasGroup);
+    }
+
 }

@@ -30,7 +30,9 @@ public class Game : MonoBehaviour
         Sounds.PlayStartGameSound();
         InitializeGame();
         Ui.ShowGUIScreen();
+        Ui.ShowTowerSelectPanel();
         Ui.ShowStartRoundButton();
+        Ui.HideOpenPanelButton();
         Ui.HideGameOverButton();
     }
     
@@ -94,5 +96,17 @@ public class Game : MonoBehaviour
         Sounds.PlayPurchaseSound();
         
         //if the player doesn't have enough money deny purchase with sound 
+    }
+
+    public void OnClosePanelButtonClicked()
+    {
+        Ui.HideTowerSelectPanel();
+        Ui.ShowOpenPanelButton();
+    }
+
+    public void OnOpenPanelButtonClicked()
+    {
+        Ui.HideOpenPanelButton();
+        Ui.ShowTowerSelectPanel();
     }
 }
