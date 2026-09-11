@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Sounds : MonoBehaviour
+public class AudioManager : MonoBehaviour
 {
     public AudioClip PauseSound;
     public AudioClip UnpauseSound;

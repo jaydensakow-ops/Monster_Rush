@@ -1,8 +1,8 @@
 using UnityEngine;
 
-public class Game : MonoBehaviour
+public class GameManager : MonoBehaviour
 {
-    public Sounds Sounds;
+    public AudioManager AudioManager;
     public UI Ui;
 
     private bool isGameRunning = false;
@@ -27,7 +27,7 @@ public class Game : MonoBehaviour
     public void OnPlayButtonClicked()
     {
         Ui.HideStartScreen();
-        Sounds.PlayStartGameSound();
+        AudioManager.PlayStartGameSound();
         InitializeGame();
         Ui.ShowGUIScreen();
         Ui.ShowTowerSelectPanel();
@@ -39,7 +39,7 @@ public class Game : MonoBehaviour
     public void OnPauseButtonClicked()
     {
         Ui.HideGUIScreen();
-        Sounds.PlayPauseSound();
+        AudioManager.PlayPauseSound();
         Ui.ShowPauseScreen();
         //add suspend functionality
     }
@@ -47,7 +47,7 @@ public class Game : MonoBehaviour
     public void OnResumeButtonClicked()
     {
         Ui.HidePauseScreen();
-        Sounds.PlayUnpauseSound();
+        AudioManager.PlayUnpauseSound();
         Ui.ShowGUIScreen();
         //add unsuspend functionality
     }
@@ -61,7 +61,7 @@ public class Game : MonoBehaviour
     public void OnPlayAgainButtonClicked()
     {
         Ui.HideGameOverScreen();
-        Sounds.PlayStartGameSound();
+        AudioManager.PlayStartGameSound();
         InitializeGame();
         Ui.ShowGUIScreen();
         Ui.ShowStartRoundButton();
@@ -72,7 +72,7 @@ public class Game : MonoBehaviour
     {
         Ui.HideGUIScreen();
         Ui.ShowGameOverScreen();
-        Sounds.PlayGameOverSound();
+        AudioManager.PlayGameOverSound();
     }
     
     public void OnStartScreenReturnButtonClicked()
@@ -81,19 +81,19 @@ public class Game : MonoBehaviour
         Ui.HidePauseScreen();
         isGameRunning = false;
         Ui.ShowStartScreen();
-        Sounds.PlayStartScreenReturnSound();
+        AudioManager.PlayStartScreenReturnSound();
     }
 
     public void OnStartRoundButtonClicked()
     {
         Ui.HideStartRoundButton();
-        Sounds.PlayRoundStartSound();
+        AudioManager.PlayRoundStartSound();
         Ui.ShowGameOverButton();
     }
 
     public void OnBaseTowerButtonClicked()
     {
-        Sounds.PlayPurchaseSound();
+        AudioManager.PlayPurchaseSound();
         
         //if the player doesn't have enough money deny purchase with sound 
     }
